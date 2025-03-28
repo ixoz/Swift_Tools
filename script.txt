@@ -1,0 +1,3 @@
+        "swift": "swiftc \"$fileName\" -o \"$fileNameWithoutExt.exe\" && ./$fileNameWithoutExt.exe",
+
+--Replace this in your code runner(vs code extension) script.txt , replace with default one
