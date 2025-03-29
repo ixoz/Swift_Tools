@@ -14,10 +14,10 @@ python --version
 To execute the script, use the following command:
 
 ```bash
-python your_script.py
+python clear.py
 ```
 
-Replace `your_script.py` with the actual name of your Python file.
+Replace `clear.py` with the actual name of your Python file.
 
 ### For Swift Users (VS Code Code Runner Extension)
 
