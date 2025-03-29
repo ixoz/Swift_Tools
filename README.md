@@ -14,6 +14,15 @@ python --version
 To execute the script, use the following command:
 
 ```bash
-python clear.py
+python your_script.py
 ```
 
+Replace `your_script.py` with the actual name of your Python file.
+
+### For Swift Users (VS Code Code Runner Extension)
+
+Replace the Swift configuration in your **Code Runner** script with the following:
+
+```json
+"swift": "swiftc \"$fileName\" -o \"$fileNameWithoutExt.exe\" && ./$fileNameWithoutExt.exe",
+```
